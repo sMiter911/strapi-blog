@@ -1,14 +1,14 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from "react"
+import PropTypes from "prop-types"
 
-import Nav from './nav'
-import Seo from './seo'
+import Nav from "./nav"
+import Seo from "./seo"
 
-const Layout = ({children}) => {
+const Layout = ({ children }) => {
   return (
     <>
-      <Seo></Seo>
-      <Nav></Nav>
+      <Seo />
+      <Nav />
       <main>{children}</main>
     </>
   )
